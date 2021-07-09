@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+button {
+  padding: 1rem 3rem;
+  background: linear-gradient(to right, #51c2d5, #ec4646);
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 10px 15px 6px rgb(0, 0, 0.5);
+  transition: 0.5s;
+}
+button:active {
+  transform: translateY(3px);
+  opacity: 0.8;
+}
